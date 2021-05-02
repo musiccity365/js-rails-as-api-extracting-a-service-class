@@ -1,4 +1,4 @@
-class CreateSightings < ActiveRecord::Migration[5.2]
+class CreateSightings < ActiveRecord::Migration
   def change
     create_table :sightings do |t|
       t.references :bird, foreign_key: true

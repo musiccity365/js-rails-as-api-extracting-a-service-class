@@ -1,4 +1,4 @@
-class CreateBirds < ActiveRecord::Migration[5.2]
+class CreateBirds < ActiveRecord::Migration
   def change
     create_table :birds do |t|
       t.string :name
